@@ -1,0 +1,49 @@
+.ÖllMyndin{
+    animation: Birtist 4s;
+}
+
+.miðja {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Tungl1 {
+    fill: red;
+    transform-origin: 49.3% 48.4%;
+    animation: Snýst 6s infinite;
+}
+
+.Pláneta {
+    fill: red;
+    animation: StækkarOgMinnkar 4s ease-in-out infinite;
+    transform-origin: 49.3% 48.4%;
+}
+
+.Tungl2 {
+    fill: red;
+    transform-origin: 49.3% 48.4%;
+    animation: Snýst 6s infinite;
+}
+
+.Kjarni {
+    fill: red;
+    transform-origin: 49.3% 48.4%;
+    animation: Birtist 4s, Snýst 5s infinite 4s;
+}
+
+@keyframes Snýst{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes Birtist{
+    from{transform: scale(0) ;}
+    to{transform: scale(1);}
+}
+
+@keyframes StækkarOgMinnkar {
+    0%{transform: scale(0.9);}
+    50%{transform: scale(1);}
+    100%{transform: scale(0.9);}
+}
