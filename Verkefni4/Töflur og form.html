@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stíllinn.css">
+    <title>Töflur og form</title>
+</head>
+<body>
+    <table>
+        <caption>Grunnám Tölvubrautar</caption>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Forritun</th>
+            <th>Vefþróun</th>
+            <th>Gagnasöfn</th>
+            <th>Tölvutækni</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Önn">1 önn</td>
+            <td data-label="Forritun"><a href="#">FORR1FG05(AU)</a></td>
+            <td data-label="Vefþróun"><a href="#">VEFÞ1VG05(AU)</a></td>
+            <td data-label="Gagnasöfn"><a href="#">GAGN1NG05(AU)</a></td>
+            <td data-label="Tölvutækni"><a href="#">KEST1TR05(AU)</a></td>
+          </tr>
+          <tr>
+            <td data-label="Önn">2 önn</td>
+            <td data-label="Forritun"><a href="#">FORR2FA05(BU)</a></td>
+            <td data-label="Vefþróun"><a href="#">VEFÞ2VH05(BU)</a></td>
+            <td data-label="Gagnasöfn"><a href="#">GAGN2HS05(BU)</a></td>
+            <td data-label="Tölvutækni"><a href="#">KEST2VJ05(BU)</a></td>
+          </tr>
+          <tr>
+            <td data-label="Önn">3 önn</td>
+            <td data-label="Forritun"><a href="#">FORR2HF05(CU)</a></td>
+            <td data-label="Vefþróun"><a href="#">VEFÞ2VF05(CU)</a></td>
+            <td data-label="Gagnasöfn"><a href="#">GAGN2VG05(CU)</a></td>
+            <td data-label="Tölvutækni"><a href="#">KEST2UN05(CU)</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <form action="#">
+        <section>
+          <label>Nafn:</label><br>
+          <input type="text" name="Nafn" maxlength="50" required><br>
+        </section>
+        <div>
+          <label>Símanúmer:</label><br>
+          <input type="number" name="Símanúmer" min="0000000" max="9999999" required><br>
+        </div>
+        <div>
+          <label>Tölvupóstur:</label><br>
+          <input type="email" name="Tölvupóstur" required><br>
+        </div>
+        <div>
+          <label>Dagsetning:</label>
+          <input type="date" name="Dagsetning" required><br>
+        </div>
+        <div>
+          <label for="Stykki">Fjöldi</label>
+          <select name="Fjöldi" id="Stykki">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <label for="Stykki">stykki</label><br>
+        </div>
+        <div>
+          <label>Árgerð:</label>
+          <input type="checkbox" name="1965">
+          <label>1965,</label>
+          <input type="checkbox" name="1985">
+          <label>1985.</label><br>
+        </div>
+        <div>
+          <label>Litur:</label>
+          <input type="radio" name="Rauður">
+          <label>Rauður,</label>
+          <input type="radio" name="Svartur">
+          <label>Svartur.</label><br>
+        </div>
+        <div>
+          <label>Athugasemdir</label><br>
+          <textarea name="message" rows="10" cols="30"></textarea>
+        </div>
+        <nav>
+          <input type="submit" value="Panta">
+        </nav>
+      </form>
+</body>
+</html>
