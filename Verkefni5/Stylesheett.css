@@ -1,0 +1,67 @@
+body{width:100%;height:100%;font:14px/24px "Open Sans",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",Sans-Serif;background-color:#ff8303}
+@font-face{font-family:icomoon;src:url(fonts/icomoon.eot?9now58);src:url(fonts/icomoon.eot?9now58#iefix) format('embedded-opentype'),url(fonts/icomoon.ttf?9now58) format('truetype'),url(fonts/icomoon.woff?9now58) format('woff'),url(fonts/icomoon.svg?9now58#icomoon) format('svg');src:url(fonts/icomoon.eot?n9qpr);src:url(fonts/icomoon.eot?n9qpr#iefix) format('embedded-opentype'),url(fonts/icomoon.ttf?n9qpr) format('truetype'),url(fonts/icomoon.woff?n9qpr) format('woff'),url(fonts/icomoon.svg?n9qpr#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
+[class*=" icon-"],[class^=icon-]{font-family:icomoon;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-home:before{content:"\e900"}
+.icon-newspaper:before{content:"\e904"}
+.icon-pencil:before{content:"\e905"}
+.icon-coin-dollar:before{content:"\e93b"}
+.icon-facebook2:before{content:"\ea91"}
+.icon-instagram:before{content:"\ea92"}
+.icon-twitter:before{content:"\ea96"}
+.icon-youtube2:before{content:"\ea9e"}
+.bold{font-weight:bolder;text-decoration:underline}
+.invis{display:none}
+.lableið,ul{border:1px solid #ff8303;border-radius:6px}
+.lableið{cursor:pointer;display:inline-block;font-size:18px;padding:5px 9px;transition:all .15s ease;color:#ff8303;background-color:#000}
+.lableið:hover{color:#ff8303}
+input:checked+.lableið{box-shadow:inset 0 1px 2px rgba(0,0,0,.15);color:#ff8303}
+.valmynd{max-height:0;overflow:hidden;transition:all .15s ease}
+input:checked~.valmynd{max-height:500px}
+ul{list-style:none;margin:8px 0 0 0;width:150px;padding-left:0;background-color:#000}
+li{border-bottom:1px solid #ff8303}
+li:last-child{border-bottom:0}
+a{color:#ff8303;display:block;padding:6px 12px;text-decoration:none}
+a:hover{color:#ff8303}
+.takki{display:flex;flex-flow:row;justify-content:space-evenly;border:none;padding-left:1em;padding-top:1em;padding-bottom:1em;padding-right:1em;border-bottom:2px solid #ff8303}
+.litur{color:#ff8303;padding-top:.1em;font-size:2em}
+.icon-coin-dollar{padding-left:.3em}
+.icon-pencil{padding-left:.1em}
+.enginnBorder{border-bottom:0}
+.socialMedia{color:#ff8303;font-size:3em}
+.socialMediaStika{display:flex;flex-flow:row;justify-content:space-evenly;padding-top:2em}
+.push{margin-top:34em}
+.socialMedia{color:#ff8303;font-size:3em}
+.listinn{position:fixed;right:0;bottom:0;padding-top:1em;padding-left:1em;border-left:1px solid #ff8303;border-top:1px solid #ff8303;background-color:#000}
+.down{padding-top:2em}
+table{margin-top:4em;margin-left:auto;margin-right:auto;width:14em}
+form{margin-left:auto;margin-right:auto;width:14em}
+form nav{padding-top:1em;padding-bottom:1em;padding-left:5em}
+form section{padding-top:2em}
+textarea{font-family:"Times New Roman",Times,serif}
+nav input{background-color:green;color:#f0fff0;width:5em;height:3em}
+form div{padding-top:1em}
+.obama{width:100%;max-width:400px;height:auto;margin-top:4em;border:3px solid #000}
+@media screen and (max-width:30em){
+.obama{margin:0}
+}
+@media screen and (max-width:37.5em){
+.obama{max-width:100%}
+}
+@media screen and (max-width:50em){
+.obama{margin-top:9em}
+}
+@media screen and (min-width:48em){
+.lableið{display:none}
+body{margin-left:0;margin-right:0}
+.valmynd{max-height:10000px;background-color:#000}
+nav{max-height:500px;border-radius:6px;padding-top:1em;padding-bottom:1em}
+ul{max-height:500;display:flex;flex-flow:row;padding-left:0;margin-top:0;width:auto;justify-content:space-evenly}
+li{border-bottom:0}
+.lableið,ul{border:0}
+.takki{display:flex;flex-flow:row;justify-content:space-evenly;border:none;background-color:#000}
+.litur{color:#ff8303;padding-top:.1em;font-size:2em}
+.icon-home{padding-bottom:.1em}
+.socialMedia{color:#ff8303;font-size:3em}
+.listinn{position:fixed;right:0;bottom:0;padding-top:1em;padding-left:1em;background-color:#000}
+.down{padding-top:2em}
+}

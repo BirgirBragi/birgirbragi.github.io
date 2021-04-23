@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="Stylesheett.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="toggle" class="invis">
+    <label for="toggle" class="lableið">&#9776;</label>
+    <nav class="valmynd">
+        <ul>
+            <nav class="takki">
+                <span class="icon-home litur"></span>
+                <li><a href="#">Home</a></li>
+            </nav>
+            <nav class="takki">
+                <span class="icon-newspaper litur"></span>
+                <li><a href="#">About</a></li>
+            </nav>
+            <nav class="takki">
+                <span class="icon-coin-dollar litur"></span>
+                <li><a href="#">Services</a></li>
+            </nav>
+            <nav class="takki enginnBorder">
+                <span class="icon-pencil litur"></span>
+                <li><a href="#">Contact</a></li>
+            </nav>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="centre bold">Verkefni 5</h1>
+
+        <section class="col-3">
+            <div><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie nisl nisi. Cras orci leo, lacinia quis dolor ac, luctus iaculis nisi. Integer varius orci lacinia varius suscipit. Suspendisse potenti. Etiam pharetra eleifend nulla a blandit. Donec vestibulum accumsan mattis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</h3></div>
+            <div><h3>Cras non sapien nec nisl blandit porttitor non nec lorem. Mauris elementum tincidunt tellus sit amet facilisis. Morbi in diam at turpis fermentum euismod. Vestibulum sodales justo mauris, a cursus nisl pulvinar eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse aliquet eros elementum dui.</h3></div>
+            <div><h3>Aliquam finibus elit vel bibendum semper. Fusce blandit nunc in cursus dapibus. Aenean pretium quam at fringilla tincidunt. Nullam lacus purus, sagittis ut velit quis, iaculis auctor lorem. Nullam venenatis lacus at consectetur dignissim. Sed ligula dolor, mattis nec sagittis ac, eleifend vitae enim. Aliquam molestie, neque in.</h3></div>
+        </section>
+        <section class="col-2 down">
+            <div>
+                <table>
+                    <thead>
+                        <th>Nafn:</th>
+                        <th>Kt:</th>
+                        <th>GSM:</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Birgir</td>
+                            <td>1</td>
+                            <td>1234567</td>
+                        </tr>
+                        <tr>
+                            <td>Gunnþór</td>
+                            <td>2</td>
+                            <td>8910112</td>
+                        </tr>
+                        <tr>
+                            <td>Íris</td>
+                            <td>3</td>
+                            <td>1213145</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <form action="#">
+                    <div>
+                        <label>Nafn:</label>
+                        <input type="text" name="Nafn" maxlength="50" required><br>
+                    </div>
+                    <div>
+                        <label>Símanúmer:</label>
+                        <input type="number" name="Símanúmer" min="0000000" max="9999999" required><br>
+                    </div>
+                    <div>
+                        <label>Athugasemdir</label><br>
+                        <textarea name="message" rows="10" cols="30"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Panta">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="col-2 down">
+            <div>
+                <img src="cover1.jpg" alt="obamna" class="obama">
+            </div>
+            <div><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie nisl nisi. Cras orci leo, lacinia quis dolor ac, luctus iaculis nisi. Integer varius orci lacinia varius suscipit. Suspendisse potenti. Etiam pharetra eleifend nulla a blandit. Donec vestibulum accumsan mattis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur. Cras non sapien nec nisl blandit porttitor non nec lorem. Mauris elementum tincidunt tellus sit amet facilisis. Morbi in diam at turpis fermentum euismod. Vestibulum sodales justo mauris, a cursus nisl pulvinar eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse aliquet eros elementum dui.</h3></div>
+        </section>
+        <section>
+            <footer class="socialMediaStika">
+                <ul class="listinn">
+                    <li><a target="_blank" href="https://www.instagram.com/"><span class="icon-instagram socialMedia"></span></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/"><span class="icon-facebook2 socialMedia"></span></a></li>
+                    <li><a target="_blank" href="https://www.twitter.com/"><span class="icon-twitter socialMedia"></span></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/"><span class="icon-youtube2 socialMedia"></span></a></li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
