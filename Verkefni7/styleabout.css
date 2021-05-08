@@ -13,7 +13,7 @@ body{width:100%;height:100%;font-family:'Open Sans',sans-serif;margin:0;backgrou
 header{background-color:#9bc53d}
 h4{font-weight:400;text-align:center}
 .loremipsum{padding-right:3em;padding-top:3em;padding-left:3em}
-.textinn{background-image:url("Untitled/ design/ /(41/).png")}
+.textinn{background-image:url("Untitled\ design\ \(41\).png")}
 .col-2{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
 .fucjk{display:none}
 .mainsection{background-color:#fde74c}
